@@ -1,12 +1,9 @@
 import {
-    Address,
     beginCell,
     Cell,
     CurrencyCollection,
-    MessageRelaxed,
     SendMode,
-    storeCurrencyCollection,
-    storeMessageRelaxed
+    storeCurrencyCollection
 } from '@ton/core';
 import {
     ExtendedAction,

@@ -1,12 +1,9 @@
 import {
-    beginCell,
     Cell,
     CurrencyCollection,
     SendMode,
-    storeCurrencyCollection
 } from '@ton/core';
-import {
-    ExtendedAction,
+    storeCurrencyCollection
     OutAction
 } from './actions';
 

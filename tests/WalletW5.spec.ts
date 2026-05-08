@@ -783,7 +783,7 @@ describe('Wallet v5 external tests', () => {
             let testOp: number;
 
             do {
-                testOp = getRandomInt(1, (1 << 32) - 1);
+                testOp = getRandomInt(1, 0xFFFFFFFF);
             } while (validSet.has(testOp));
 
             await assertSimple(

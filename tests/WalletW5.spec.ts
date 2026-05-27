@@ -2775,7 +2775,6 @@ describe('Wallet v5 external tests', () => {
         it('extension should be able to add another extension when sig auth is disabled', async () => {
             await loadFrom(signatureDisabled);
             const testExtAddr = randomAddress();
-            const stateBefore = await getWalletData();
             const extBefore = await wallet.getExtensionsArray();
             expect(extBefore.length).toBe(1);
 
